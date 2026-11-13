@@ -16,12 +16,12 @@
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id$
  */
-namespace gipfl\ZfDb\Adapter;
+namespace nonini\ZfDb\Adapter;
 
-use gipfl\ZfDb\Adapter\Exception\AdapterExceptionOracle;
-use gipfl\ZfDb\Db;
-use gipfl\ZfDb\Expr;
-use gipfl\ZfDb\Statement\OracleStatement;
+use nonini\ZfDb\Adapter\Exception\AdapterExceptionOracle;
+use nonini\ZfDb\Db;
+use nonini\ZfDb\Expr;
+use nonini\ZfDb\Statement\OracleStatement;
 
 /**
  * @copyright  Copyright (c) 2005-2015 Zend Technologies USA Inc. (http://www.zend.com)

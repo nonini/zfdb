@@ -16,10 +16,10 @@
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id$
  */
-namespace gipfl\ZfDb;
+namespace nonini\ZfDb;
 
-use gipfl\ZfDb\Profiler\ProfilerException;
-use gipfl\ZfDb\Profiler\ProfilerQuery;
+use nonini\ZfDb\Profiler\ProfilerException;
+use nonini\ZfDb\Profiler\ProfilerQuery;
 
 /**
  * @copyright  Copyright (c) 2005-2015 Zend Technologies USA Inc. (http://www.zend.com)
@@ -131,7 +131,7 @@ class Profiler
      */
     public function setEnabled($enable)
     {
-        $this->_enabled = (boolean) $enable;
+        $this->_enabled = (bool) $enable;
 
         return $this;
     }
@@ -161,7 +161,7 @@ class Profiler
         if (null === $minimumSeconds) {
             $this->_filterElapsedSecs = null;
         } else {
-            $this->_filterElapsedSecs = (integer) $minimumSeconds;
+            $this->_filterElapsedSecs = (int) $minimumSeconds;
         }
 
         return $this;

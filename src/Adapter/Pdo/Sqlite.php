@@ -16,10 +16,10 @@
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id$
  */
-namespace gipfl\ZfDb\Adapter\Pdo;
+namespace nonini\ZfDb\Adapter\Pdo;
 
-use gipfl\ZfDb\Adapter\Exception\AdapterException;
-use gipfl\ZfDb\Db;
+use nonini\ZfDb\Adapter\Exception\AdapterException;
+use nonini\ZfDb\Db;
 
 /**
  * Class for connecting to SQLite2 and SQLite3 databases and performing common operations.

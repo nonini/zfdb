@@ -16,11 +16,11 @@
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id$
  */
-namespace gipfl\ZfDb\Statement;
+namespace nonini\ZfDb\Statement;
 
-use gipfl\ZfDb\Db;
-use gipfl\ZfDb\Statement;
-use gipfl\ZfDb\Statement\Exception\StatementExceptionDb2;
+use nonini\ZfDb\Db;
+use nonini\ZfDb\Statement;
+use nonini\ZfDb\Statement\Exception\StatementExceptionDb2;
 
 /**
  * Extends for DB2 native adapter.

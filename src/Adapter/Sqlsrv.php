@@ -16,13 +16,13 @@
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id$
  */
-namespace gipfl\ZfDb\Adapter;
+namespace nonini\ZfDb\Adapter;
 
-use gipfl\ZfDb\Adapter\Exception\AdapterException;
-use gipfl\ZfDb\Adapter\Exception\AdapterExceptionSqlsrv;
-use gipfl\ZfDb\Db;
-use gipfl\ZfDb\Expr;
-use gipfl\ZfDb\Statement\SqlsrvStatement;
+use nonini\ZfDb\Adapter\Exception\AdapterException;
+use nonini\ZfDb\Adapter\Exception\AdapterExceptionSqlsrv;
+use nonini\ZfDb\Db;
+use nonini\ZfDb\Expr;
+use nonini\ZfDb\Statement\SqlsrvStatement;
 
 /**
  * @copyright  Copyright (c) 2005-2015 Zend Technologies USA Inc. (http://www.zend.com)
@@ -116,7 +116,7 @@ class Sqlsrv extends Adapter
 
         $serverName = $this->_config['host'];
         if (isset($this->_config['port'])) {
-            $port        = (integer) $this->_config['port'];
+            $port        = (int) $this->_config['port'];
             $serverName .= ', ' . $port;
         }
 

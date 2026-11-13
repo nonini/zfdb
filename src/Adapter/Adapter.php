@@ -16,16 +16,16 @@
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id$
  */
-namespace gipfl\ZfDb\Adapter;
+namespace nonini\ZfDb\Adapter;
 
-use gipfl\ZfDb\Adapter\Exception\AdapterException;
-use gipfl\ZfDb\Db;
-use gipfl\ZfDb\Expr;
-use gipfl\ZfDb\Profiler;
-use gipfl\ZfDb\Profiler\ProfilerException;
-use gipfl\ZfDb\Select;
-use gipfl\ZfDb\Statement;
-use gipfl\ZfDb\Statement\StatementInterface;
+use nonini\ZfDb\Adapter\Exception\AdapterException;
+use nonini\ZfDb\Db;
+use nonini\ZfDb\Expr;
+use nonini\ZfDb\Profiler;
+use nonini\ZfDb\Profiler\ProfilerException;
+use nonini\ZfDb\Select;
+use nonini\ZfDb\Statement;
+use nonini\ZfDb\Statement\StatementInterface;
 
 /**
  * @see Zend_Db
@@ -520,7 +520,7 @@ abstract class Adapter
      * @param mixed $table The table to insert data into.
      * @param array $bind Column-value pairs.
      * @return int The number of affected rows.
-     * @throws AdapterException|\gipfl\ZfDb\Statement\Exception\StatementException
+     * @throws AdapterException|\nonini\ZfDb\Statement\Exception\StatementException
      */
     public function insert($table, array $bind)
     {

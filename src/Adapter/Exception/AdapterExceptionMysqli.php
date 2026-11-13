@@ -17,7 +17,7 @@
  * @version    $Id$
  *
  */
-namespace gipfl\ZfDb\Adapter\Exception;
+namespace nonini\ZfDb\Adapter\Exception;
 
 /**
  * Zend_Db_Adapter_Mysqli_Exception

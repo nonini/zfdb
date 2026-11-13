@@ -16,12 +16,12 @@
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id$
  */
-namespace gipfl\ZfDb;
+namespace nonini\ZfDb;
 
-use gipfl\ZfDb\Adapter\Adapter;
-use gipfl\ZfDb\Profiler\ProfilerQuery;
-use gipfl\ZfDb\Statement\Exception\StatementException;
-use gipfl\ZfDb\Statement\StatementInterface;
+use nonini\ZfDb\Adapter\Adapter;
+use nonini\ZfDb\Profiler\ProfilerQuery;
+use nonini\ZfDb\Statement\Exception\StatementException;
+use nonini\ZfDb\Statement\StatementInterface;
 
 /**
  * Abstract class to emulate a PDOStatement for native database adapters.

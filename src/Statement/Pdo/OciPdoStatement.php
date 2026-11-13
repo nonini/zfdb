@@ -16,10 +16,10 @@
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id$
  */
-namespace gipfl\ZfDb\Statement\Pdo;
+namespace nonini\ZfDb\Statement\Pdo;
 
-use gipfl\ZfDb\Statement\PdoStatement;
-use gipfl\ZfDb\Statement\Exception\StatementException;
+use nonini\ZfDb\Statement\PdoStatement;
+use nonini\ZfDb\Statement\Exception\StatementException;
 
 /**
  * Proxy class to wrap a PDOStatement object for IBM Databases.

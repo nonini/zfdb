@@ -16,12 +16,12 @@
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id$
  */
-namespace gipfl\ZfDb\Statement;
+namespace nonini\ZfDb\Statement;
 
-use gipfl\ZfDb\Db;
-use gipfl\ZfDb\Statement\Exception\StatementException;
-use gipfl\ZfDb\Statement\Exception\StatementExceptionSqlsrv;
-use gipfl\ZfDb\Statement;
+use nonini\ZfDb\Db;
+use nonini\ZfDb\Statement\Exception\StatementException;
+use nonini\ZfDb\Statement\Exception\StatementExceptionSqlsrv;
+use nonini\ZfDb\Statement;
 
 /**
  * Extends for Microsoft SQL Server Driver for PHP

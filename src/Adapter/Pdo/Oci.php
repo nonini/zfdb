@@ -16,12 +16,12 @@
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id$
  */
-namespace gipfl\ZfDb\Adapter\Pdo;
+namespace nonini\ZfDb\Adapter\Pdo;
 
-use gipfl\ZfDb\Adapter\Exception\AdapterException;
-use gipfl\ZfDb\Adapter\Exception\AdapterExceptionOracle;
-use gipfl\ZfDb\Db;
-use gipfl\ZfDb\Expr;
+use nonini\ZfDb\Adapter\Exception\AdapterException;
+use nonini\ZfDb\Adapter\Exception\AdapterExceptionOracle;
+use nonini\ZfDb\Db;
+use nonini\ZfDb\Expr;
 
 /**
  * Class for connecting to Oracle databases and performing common operations.

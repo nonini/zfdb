@@ -17,11 +17,11 @@
  * @version    $Id$
  *
  */
-namespace gipfl\ZfDb\Adapter;
+namespace nonini\ZfDb\Adapter;
 
-use gipfl\ZfDb\Adapter\Exception\AdapterExceptionDb2;
-use gipfl\ZfDb\Db;
-use gipfl\ZfDb\Statement\Db2Statement;
+use nonini\ZfDb\Adapter\Exception\AdapterExceptionDb2;
+use nonini\ZfDb\Db;
+use nonini\ZfDb\Statement\Db2Statement;
 
 /**
  * @copyright  Copyright (c) 2005-2015 Zend Technologies USA Inc. (http://www.zend.com)

@@ -16,9 +16,9 @@
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id$
  */
-namespace gipfl\ZfDb\Statement\Exception;
+namespace nonini\ZfDb\Statement\Exception;
 
-use gipfl\ZfDb\Statement\Exception\StatementException;
+use nonini\ZfDb\Statement\Exception\StatementException;
 
 /**
  * @copyright  Copyright (c) 2005-2015 Zend Technologies USA Inc. (http://www.zend.com)

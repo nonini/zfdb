@@ -16,7 +16,7 @@
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id$
  */
-namespace gipfl\ZfDb\Adapter\Exception;
+namespace nonini\ZfDb\Adapter\Exception;
 
 use Exception;
 

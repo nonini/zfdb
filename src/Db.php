@@ -17,10 +17,10 @@
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id$
  */
-namespace gipfl\ZfDb;
+namespace nonini\ZfDb;
 
-use gipfl\ZfDb\Adapter\Adapter;
-use gipfl\ZfDb\Exception\DbException;
+use nonini\ZfDb\Adapter\Adapter;
+use nonini\ZfDb\Exception\DbException;
 
 /**
  * Class for connecting to SQL databases and performing common operations.
@@ -232,7 +232,7 @@ class Db
         /*
          * Form full adapter class name
          */
-        $adapterClass = '\\gipfl\\ZfDb\\Adapter\\'
+        $adapterClass = '\\nonini\\ZfDb\\Adapter\\'
             . str_replace(' ', '\\', ucwords(str_replace('_', ' ', strtolower($adapter))));
         $dbAdapter = new $adapterClass($config);
 
@@ -240,7 +240,7 @@ class Db
          * Verify that the object created is a descendent of the abstract adapter type.
          */
         if (! $dbAdapter instanceof Adapter) {
-            throw new DbException("Adapter class '$adapterClass' does not extend gipfl\ZfDb\Abstract");
+            throw new DbException("Adapter class '$adapterClass' does not extend nonini\ZfDb\Abstract");
         }
 
         return $dbAdapter;

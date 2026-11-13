@@ -16,11 +16,11 @@
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id$
  */
-namespace gipfl\ZfDb\Adapter\Pdo\Ibm;
+namespace nonini\ZfDb\Adapter\Pdo\Ibm;
 
-use gipfl\ZfDb\Adapter\Adapter;
-use gipfl\ZfDb\Adapter\Exception\AdapterException;
-use gipfl\ZfDb\Db;
+use nonini\ZfDb\Adapter\Adapter;
+use nonini\ZfDb\Adapter\Exception\AdapterException;
+use nonini\ZfDb\Db;
 
 /**
  * @copyright  Copyright (c) 2005-2015 Zend Technologies USA Inc. (http://www.zend.com)

@@ -16,7 +16,7 @@
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id$
  */
-namespace gipfl\ZfDb;
+namespace nonini\ZfDb;
 
 /**
  * Class for SQL SELECT fragments.

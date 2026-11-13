@@ -16,11 +16,11 @@
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id$
  */
-namespace gipfl\ZfDb\Adapter;
+namespace nonini\ZfDb\Adapter;
 
-use gipfl\ZfDb\Db;
-use gipfl\ZfDb\Statement\Exception\StatementExceptionMysqli;
-use gipfl\ZfDb\Statement\MysqliStatement;
+use nonini\ZfDb\Db;
+use nonini\ZfDb\Statement\Exception\StatementExceptionMysqli;
+use nonini\ZfDb\Statement\MysqliStatement;
 
 /**
  * @copyright  Copyright (c) 2005-2015 Zend Technologies USA Inc. (http://www.zend.com)
@@ -259,7 +259,7 @@ class Mysqli extends Adapter
         }
 
         if (isset($this->_config['port'])) {
-            $port = (integer) $this->_config['port'];
+            $port = (int) $this->_config['port'];
         } else {
             $port = null;
         }

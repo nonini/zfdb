@@ -16,10 +16,10 @@
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id$
  */
-namespace gipfl\ZfDb\Statement;
+namespace nonini\ZfDb\Statement;
 
-use gipfl\ZfDb\Statement;
-use gipfl\ZfDb\Statement\Exception\StatementException;
+use nonini\ZfDb\Statement;
+use nonini\ZfDb\Statement\Exception\StatementException;
 use IteratorAggregate;
 use IteratorIterator;
 use PDO;

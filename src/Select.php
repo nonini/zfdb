@@ -16,11 +16,11 @@
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id$
  */
-namespace gipfl\ZfDb;
+namespace nonini\ZfDb;
 
-use gipfl\ZfDb\Adapter\Adapter;
-use gipfl\ZfDb\Exception\DbException;
-use gipfl\ZfDb\Exception\SelectException;
+use nonini\ZfDb\Adapter\Adapter;
+use nonini\ZfDb\Exception\DbException;
+use nonini\ZfDb\Exception\SelectException;
 use PDOStatement;
 
 /**

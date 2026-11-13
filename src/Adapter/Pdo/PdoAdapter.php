@@ -16,14 +16,14 @@
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id$
  */
-namespace gipfl\ZfDb\Adapter\Pdo;
+namespace nonini\ZfDb\Adapter\Pdo;
 
-use gipfl\ZfDb\Adapter\Adapter;
-use gipfl\ZfDb\Adapter\Exception\AdapterException;
-use gipfl\ZfDb\Profiler;
-use gipfl\ZfDb\Select;
-use gipfl\ZfDb\Statement\PdoStatement;
-use gipfl\ZfDb\Statement\Exception\StatementException;
+use nonini\ZfDb\Adapter\Adapter;
+use nonini\ZfDb\Adapter\Exception\AdapterException;
+use nonini\ZfDb\Profiler;
+use nonini\ZfDb\Select;
+use nonini\ZfDb\Statement\PdoStatement;
+use nonini\ZfDb\Statement\Exception\StatementException;
 use PDO;
 use PDOException;
 
